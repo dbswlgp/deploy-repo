@@ -5,6 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
+  revisionHistoryLimit: 2
   replicas: 5
   selector:
     matchLabels:
@@ -14,7 +15,6 @@ spec:
       labels:
         app: nginx
     spec:
-      revisionHistoryLimit: 2
       containers:
       - name: nginx-container
         image: dbswlgp99/jenkins-nginx:latest
