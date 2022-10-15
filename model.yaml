@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: model-pod
+spec:
+  containers:
+  - name: model-container
+    image: ilsf1004/edge-image:2.3
+    securityContext:
+      privileged: true
+  restartPolicy: OnFailure
+
