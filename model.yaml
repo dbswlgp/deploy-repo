@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: model-container
-    image: dbswlgp99/edge-image:2.3
+    image: dbswlgp99/edge-image:63
     securityContext:
       privileged: true
   restartPolicy: OnFailure
