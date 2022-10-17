@@ -19,4 +19,3 @@ spec:
         image: nginx:latest
         securityContext:
           privileged: true
-      restartPolicy: OnFailure
