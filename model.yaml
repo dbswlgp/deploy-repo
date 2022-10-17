@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: model-container
-        image: nginx
+        image: nginx:latest
         securityContext:
           privileged: true
       restartPolicy: OnFailure
