@@ -18,5 +18,5 @@ spec:
         privileged: true
       containers:
       - name: model-container
-        image: dbswlgp99/edge-image:94
+        image: dbswlgp99/edge-image:95
 
