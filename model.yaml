@@ -14,8 +14,9 @@ spec:
       labels:
         app: model
     spec:
+      securityContext:
+          privileged: true
       containers:
       - name: model-container
         image: dbswlgp99/edge-image:91
-        securityContext:
-          privileged: true
+
