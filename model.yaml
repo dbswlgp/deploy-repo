@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: model-container
-        image: nginx:latest
+        image: edge-image:87
         securityContext:
           privileged: true
