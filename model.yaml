@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: model-container
-        image: dbswlgp99/edge-image:121
+        image: dbswlgp99/edge-image:1
         securityContext:
           privileged: true
 
